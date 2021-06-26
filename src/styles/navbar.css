@@ -1,0 +1,6 @@
+.drawerMenuLogo {
+    font-family: 'Impact';
+    color: rgba(255, 255, 255, 0.918);
+    text-shadow: 4px 4px 3px rgb(212, 175, 55);
+    -webkit-text-stroke: 0.75px black;
+}
