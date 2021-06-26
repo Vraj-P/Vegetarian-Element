@@ -9,9 +9,9 @@ function HeroSection() {
             <img src={Background} alt="Food"/>
             <h1>Vegetarian Element</h1>
             {/* <p>Quick & Easy Recipes</p> */}
-            <p>➦Quick,</p>
-            <p>➦Easy,</p>
-            <p>➦Vegetarian,</p>
+            <p>➦Quick</p>
+            <p>➦Easy</p>
+            <p>➦Vegetarian</p>
         </div>
     );
 }
