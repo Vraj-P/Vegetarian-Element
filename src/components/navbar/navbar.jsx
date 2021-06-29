@@ -160,7 +160,7 @@ export default function Navbar() {
   }
 
   return(
-    <header>
+    <header className="sticky">
       <AppBar className={header}>
         {mobileView ? displayMobile() : displayDesktop()}
       </AppBar>
