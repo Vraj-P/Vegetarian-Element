@@ -8,10 +8,6 @@ const headersData = [
   {
     label: "Recipies",
     href: "/",
-  },
-  {
-    label: "Contact Us",
-    href: "/contact",
   }
 ];
 
