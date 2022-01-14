@@ -1,0 +1,50 @@
+.top{
+    margin-left: 30px;;
+    margin-top: 15px;
+    line-height: 30px;
+}
+
+.meal{
+    opacity: 70%;
+}
+
+.about{
+    margin-left: 30px;;
+    margin-top: 15px;
+    line-height: 20px;
+}
+
+.ingred{
+    margin-left: 30px;;
+    margin-top: 15px;
+    line-height: 20px;
+}
+
+.card {
+    margin: 70px;
+    line-height: 30px;
+    height: 400px;
+    width: 600px;
+    background: white;
+    border-radius: 10px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: unset;
+}
+
+.info {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* color: darkblue; */
+    
+}
+
+.cardImage {
+    position: static;
+    height: 35%;
+    border-top-right-radius: inherit;
+    border-top-left-radius: inherit;
+}
