@@ -5,12 +5,14 @@ import Navbar from '../navbar/navbar';
 import Footer from '../Footer/Footer';
 import Card from '../cards/cards';
 import Oatmeal from '../../static/Images/Oatmeal.png';
+import Food from '../Food/Food';
 
 export default function Home() {
     return (
         <>  
             <Navbar/>
             <HeroSection/>
+            <Food/>
             <Footer/>
             <Card image={Oatmeal} title='Chai Oatmeal' calories='243' level='Intermediate level' time='40 mins' meal='Lunch' servings='4' discription='For an Extra thick and creamy bowl, add oat bran. It will make for a hearty helping and also add more fiber to your meal. If you love the taste of chai, you will enjoy this spiced version with coriander, cinnamon, and turmeric.' ingredients='pineapple, and cherry'/>
         </>
