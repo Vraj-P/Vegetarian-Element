@@ -11,7 +11,7 @@ function Card({image,title,meal,servings,time,level,calories,ingredients,discrip
         <div className="card">
             <img className="cardImage" src={image} alt="food depicted in the recipe"/>
             <div className="top">
-                <h1><b>{title}</b></h1>
+                <h2><b>{title}</b></h2>
                 <h3 className="meal">{meal}</h3>
             </div>
             <div className="info">
@@ -21,7 +21,7 @@ function Card({image,title,meal,servings,time,level,calories,ingredients,discrip
                 <h4><AiFillFire color='rgb(192, 155, 35)'/>&nbsp;{calories}</h4>
             </div>
             <div className= "about"> 
-                <p>{discription}</p>
+                <a href={discription}>Click Here For the Full Recipe</a>
             </div>
             <div className= "ingred"> 
                 <p><b>Ingredients: </b>{ingredients}</p>
