@@ -9,7 +9,7 @@ function Food() {
     const [query, setquery] = useState("");
     const [recipes, setrecipes] = useState([]);
 
-    var url = `https://api.edamam.com/search?q=${query}&app_id=ddec2ff4&app_key=3d74c59f6561ef67ef4a9ce9465651c0`;
+    var url = `https://api.edamam.com/search?q=${query}&app_id=${process.env.REACT_APP_ID}&app_key=${process.env.REACT_APP_KEY}`;
     
     async function getRecipes() {
         var result = await Axios.get(url);
